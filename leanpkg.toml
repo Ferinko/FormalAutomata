@@ -1,0 +1,8 @@
+[package]
+name = "Cautomata"
+version = "0.1"
+lean_version = "nightly-2019-01-13"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover/mathlib", rev = "a1dda1e9cefc23445fdf511f4a25a7c36447c8da"}
